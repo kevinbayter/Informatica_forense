@@ -62,3 +62,7 @@ header p {
     font-size: 16px;
     font-style: italic;
 }
+
+tr[onclick] {
+    cursor: pointer;
+}
