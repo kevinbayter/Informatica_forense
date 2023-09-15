@@ -1,0 +1,4 @@
+2023-09-02 17:31:49.613720 - Servidor iniciado en el puerto 23
+2023-09-02 17:31:58.326554 - Conexión desde ('127.0.0.1', 58508) establecida
+2023-09-02 17:34:02.877413 - Servidor iniciado en el puerto 23
+2023-09-02 17:34:07.511638 - Conexión desde ('127.0.0.1', 58613) establecida

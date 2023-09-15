@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadro Comparativo de Versiones de Windows</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Informática Forense - Eje 3</h1>
+        <p>By Kevin Bayter</p>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Versión</th>
+                <th>Lanzamiento</th>
+                <th>Interfaz</th>
+                <th>Compatibilidad</th>
+                <th>Redes</th>
+                <th>Sistema de archivos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr onclick="toggleDetails('win95')">
+                <td>Windows 95</td>
+                <td>Agosto de 1995</td>
+                <td>Introdujo el menú Inicio</td>
+                <td>Soporte para IBM PC</td>
+                <td>Soporte "Plug and Play"</td>
+                <td>FAT32</td>
+            </tr>
+            <tr id="win95" class="details">
+                <td colspan="6">
+                    <strong>Lanzamiento:</strong> Windows 95 fue lanzado el 24 de agosto de 1995 y se considera una de las versiones más significativas de Windows debido a los grandes cambios que introdujo.<br>
+                    <strong>Interfaz de Usuario:</strong> Fue la primera versión que introdujo el menú Inicio, la barra de tareas y el botón de inicio. La interfaz fue completamente rediseñada para ser más intuitiva.<br>
+                    <strong>Compatibilidad y Hardware:</strong> Ofreció soporte mejorado para computadoras IBM PC y soporte para "Plug and Play".<br>
+                    <strong>Redes y Conectividad:</strong> Introdujo el soporte para Microsoft Network y proporcionó integración con Internet, incluido un navegador web temprano llamado Internet Explorer.<br>
+                    <strong>Sistema de Archivos:</strong> Introdujo el sistema de archivos FAT32, que permitía el uso de discos duros más grandes.<br>
+                    <strong>Multitarea:</strong> Mejoró la gestión de las aplicaciones en ejecución.<br>
+                    <strong>Juegos:</strong> Incluyó juegos clásicos como Minesweeper, Solitaire y Hearts.<br>
+                    <strong>Soporte para 32 bits:</strong> Fue el paso inicial hacia un sistema operativo completamente de 32 bits.<br>
+                    <strong>Duración del soporte:</strong> Microsoft finalizó el soporte oficial el 31 de diciembre de 2001.
+                </td>
+            </tr>
+            <tr onclick="toggleDetails('win98')">
+                <td>Windows 98</td>
+                <td>Junio de 1998</td>
+                <td>Mejoras en el menú Inicio</td>
+                <td>Mejor soporte para ACPI y dispositivos USB</td>
+                <td>Mejoras en la conectividad a Internet</td>
+                <td>FAT32</td>
+            </tr>
+            <tr id="win98" class="details">
+                <td colspan="6">
+                    <strong>Lanzamiento:</strong> Windows 98 se lanzó el 25 de junio de 1998. Está basado en el núcleo Windows 95 y se le considera una versión de transición, con mejoras significativas en comparación con su predecesor.<br>
+                    <strong>Interfaz de Usuario:</strong> Incorporó el "Explorador de Windows" que combinaba la funcionalidad del administrador de archivos y el programa de lanzamiento. También introdujo el "Escritorio Web" que permitía a los objetos Active Desktop ser colocados en el fondo del escritorio.<br>
+                    <strong>Compatibilidad y Hardware:</strong> Añadió soporte para numerosos estándares de dispositivos, incluidos USB, AGP y ACPI. Además, ofreció mejoras en el rendimiento general del sistema.<br>
+                    <strong>Redes y Conectividad:</strong> Windows 98 fue el primero en incluir Internet Explorer 4 y sus tecnologías relacionadas como Outlook Express, Windows Address Book y NetMeeting. También introdujo el cliente de red para Microsoft Networks y el Asistente para la conexión a Internet.<br>
+                    <strong>Sistema de Archivos:</strong> Continuó con el soporte de FAT32, pero añadió la utilidad de conversión Drive Converter para convertir unidades FAT16 a FAT32 sin perder datos.<br>
+                    <strong>Multimedia:</strong> Incorporó el soporte para DVD y la capacidad de abrir y cerrar la bandeja del CD-ROM mediante software.<br>
+                    <strong>Actualizaciones:</strong> En 1999, se lanzó Windows 98 Second Edition (SE) que ofrecía mejoras en la velocidad, confiabilidad y seguridad sobre la versión original.<br>
+                    <strong>Duración del soporte:</strong> Microsoft finalizó el soporte oficial para Windows 98 el 11 de julio de 2006.
+                </td>
+            </tr>
+            <tr onclick="toggleDetails('winME')">
+                <td>Windows ME (Millennium Edition)</td>
+                <td>Septiembre del 2000</td>
+                <td>Introdujo el "Restaurar sistema"</td>
+                <td>Eliminación del modo de operación en tiempo real</td>
+                <td>Sistema de Compartición de Internet</td>
+                <td>FAT32</td>
+            </tr>
+            <tr id="winME" class="details">
+                <td colspan="6">
+                    <strong>Lanzamiento:</strong> Windows ME (Millennium Edition) se lanzó el 14 de septiembre de 2000. Fue la última versión de Windows basada en el núcleo de Windows 95.<br>
+                    <strong>Interfaz de Usuario:</strong> Introdujo características como Restaurar sistema, para revertir la configuración del sistema a una fecha anterior, y la Galería de imágenes y videos. También vio la eliminación del Modo MS-DOS real.<br>
+                    <strong>Compatibilidad y Hardware:</strong> Aunque estaba basado en el núcleo de Windows 95, eliminó el modo de operación en tiempo real, lo que afectó la compatibilidad con algunos programas más antiguos. Sin embargo, introdujo características como la Protección de archivos del sistema para prevenir la corrupción accidental de archivos críticos del sistema.<br>
+                    <strong>Redes y Conectividad:</strong> Introdujo el Sistema de Compartición de Internet, que permitía a múltiples computadoras en una red local compartir una única conexión a Internet. También vino con Internet Explorer 5.5 y Windows Media Player 7.<br>
+                    <strong>Sistema de Archivos:</strong> Continuó con el soporte de FAT32, pero no ofreció soporte nativo para NTFS.<br>
+                    <strong>Multimedia:</strong> Mejoras en la reproducción de medios y la introducción de Windows Movie Maker.<br>
+                    <strong>Actualizaciones:</strong> A pesar de introducir varias características nuevas, Windows ME es a menudo considerado como uno de los lanzamientos menos estables de Microsoft.<br>
+                    <strong>Duración del soporte:</strong> Microsoft finalizó el soporte oficial para Windows ME el 11 de julio de 2006, junto con Windows 98.
+                </td>
+            </tr>            
+            <tr onclick="toggleDetails('win2000')">
+                <td>Windows 2000</td>
+                <td>Febrero del 2000</td>
+                <td>Basado en el núcleo de Windows NT</td>
+                <td>Mejoras en la seguridad y estabilidad</td>
+                <td>Introdujo Active Directory</td>
+                <td>NTFS 3.0</td>
+            </tr>
+            <tr id="win2000" class="details">
+                <td colspan="6">
+                    <strong>Lanzamiento:</strong> Windows 2000 fue lanzado el 17 de febrero de 2000. Aunque sigue la numeración de Windows 95/98, en realidad está basado en el núcleo de Windows NT y fue diseñado para ser una actualización de Windows NT 4.0.<br>
+                    <strong>Interfaz de Usuario:</strong> Mientras que mantuvo una apariencia similar a versiones anteriores, introdujo numerosas mejoras en la interfaz de usuario, y fue el primero en incluir la "Ayuda y soporte técnico" de Microsoft.<br>
+                    <strong>Compatibilidad y Hardware:</strong> Diseñado tanto para estaciones de trabajo como para servidores, ofreció un equilibrio entre compatibilidad y rendimiento. Introdujo muchas de las tecnologías de "Plug and Play" presentes en Windows 95/98 en el núcleo de Windows NT.<br>
+                    <strong>Redes y Conectividad:</strong> Introdujo Active Directory, que es una mejora significativa en la gestión de redes sobre los dominios en Windows NT. También ofreció mejoras en los protocolos de red y en la conectividad de red en general.<br>
+                    <strong>Sistema de Archivos:</strong> Introdujo la versión 3.0 de NTFS, que ofrecía numerosas mejoras sobre las versiones anteriores, incluyendo la capacidad de cifrar archivos y carpetas para mejorar la seguridad.<br>
+                    <strong>Seguridad:</strong> Mejoras en la seguridad del sistema operativo, incluyendo la introducción de las políticas de seguridad y la capacidad de establecer permisos a nivel de archivo y carpeta.<br>
+                    <strong>Modos de Operación:</strong> A diferencia de Windows ME, Windows 2000 mantuvo el modo de operación en tiempo real, permitiendo una mejor compatibilidad con aplicaciones más antiguas.<br>
+                    <strong>Duración del soporte:</strong> Microsoft finalizó el soporte oficial para Windows 2000 el 13 de julio de 2010.
+                </td>
+            </tr>
+            <tr onclick="toggleDetails('winXP')">
+                <td>Windows XP</td>
+                <td>Octubre del 2001</td>
+                <td>Nueva interfaz llamada Luna</td>
+                <td>Soporte para aplicaciones más recientes</td>
+                <td>Firewall de Windows y conectividad inalámbrica</td>
+                <td>Soporte mejorado para NTFS</td>
+            </tr>
+            <tr id="winXP" class="details">
+                <td colspan="6">
+                    <strong>Lanzamiento:</strong> Windows XP fue lanzado el 25 de octubre de 2001. Es conocido por su estabilidad y eficiencia en comparación con versiones anteriores.<br>
+                    <strong>Interfaz de Usuario:</strong> Introdujo una nueva interfaz llamada Luna, que ofrecía un diseño más limpio y moderno en comparación con versiones anteriores. También introdujo el "Centro de Ayuda y Soporte".<br>
+                    <strong>Compatibilidad y Hardware:</strong> Ofreció un soporte mejorado para hardware y software más reciente, incluidos los juegos. Incluía un modo de compatibilidad para ayudar a ejecutar programas más antiguos.<br>
+                    <strong>Redes y Conectividad:</strong> Mejoras significativas en la conectividad inalámbrica, introducción del Firewall de Windows, y la capacidad de configurar redes domésticas más fácilmente.<br>
+                    <strong>Sistema de Archivos:</strong> Aunque NTFS no era nuevo, Windows XP ofreció mejoras en su rendimiento y seguridad, incluyendo la capacidad de mover archivos mientras estaban en uso.<br>
+                    <strong>Seguridad:</strong> A pesar de que se introdujeron numerosas mejoras de seguridad, Windows XP también fue objeto de numerosas vulnerabilidades, lo que llevó a Microsoft a lanzar el Service Pack 2 en 2004, que centraba en mejoras de seguridad.<br>
+                    <strong>Ediciones:</strong> Windows XP estaba disponible en varias ediciones, incluyendo Home, Professional, y más tarde, ediciones Media Center y Tablet PC.<br>
+                    <strong>Duración del soporte:</strong> Microsoft finalizó el soporte oficial para Windows XP el 8 de abril de 2014, aunque algunas organizaciones continuaron recibiendo actualizaciones de seguridad bajo acuerdos personalizados.
+                </td>
+            </tr>
+            <tr onclick="toggleDetails('winVista')">
+                <td>Windows Vista</td>
+                <td>Enero del 2007</td>
+                <td>Interfaz Aero con efectos de transparencia</td>
+                <td>Mejoras en seguridad con UAC</td>
+                <td>Mejoras en conectividad inalámbrica y seguridad de red</td>
+                <td>Soporte continuado para NTFS</td>
+            </tr>
+            <tr id="winVista" class="details">
+                <td colspan="6">
+                    <strong>Lanzamiento:</strong> Windows Vista se lanzó el 30 de enero de 2007 y se considera uno de los lanzamientos más polémicos de Microsoft debido a los problemas iniciales de rendimiento y compatibilidad.<br>
+                    <strong>Interfaz de Usuario:</strong> Introdujo la interfaz Aero, que ofrecía efectos de transparencia y animaciones más fluidas. También incluyó características como Flip 3D y la barra lateral con gadgets.<br>
+                    <strong>Compatibilidad y Hardware:</strong> A pesar de las mejoras visuales, muchos usuarios tuvieron problemas iniciales con la compatibilidad de hardware y software, especialmente en sistemas más antiguos.<br>
+                    <strong>Redes y Conectividad:</strong> Presentó una nueva versión del Internet Explorer, el IE7, y mejoras significativas en la seguridad de red y la conectividad inalámbrica.<br>
+                    <strong>Sistema de Archivos:</strong> Continuó con el soporte de NTFS y también introdujo características como ReadyBoost y ReadyDrive.<br>
+                    <strong>Seguridad:</strong> Introdujo el Control de Cuentas de Usuario (UAC) para mejorar la seguridad, aunque fue considerado molesto por muchos usuarios.<br>
+                    <strong>Ediciones:</strong> Estaba disponible en varias ediciones, desde Home Basic hasta Ultimate, cada una con diferentes conjuntos de características.<br>
+                    <strong>Duración del soporte:</strong> Microsoft finalizó el soporte oficial para Windows Vista el 11 de abril de 2017.
+                </td>
+            </tr>
+            <tr onclick="toggleDetails('win7')">
+                <td>Windows 7</td>
+                <td>Octubre del 2009</td>
+                <td>Mejoras en la barra de tareas y bibliotecas</td>
+                <td>Mejoras en rendimiento y compatibilidad</td>
+                <td>Centro de redes y recursos compartidos</td>
+                <td>Soporte continuado para NTFS y mejoras en rendimiento</td>
+            </tr>
+            <tr id="win7" class="details">
+                <td colspan="6">
+                    <strong>Lanzamiento:</strong> Windows 7 se lanzó el 22 de octubre de 2009 y fue bien recibido por los usuarios y críticos, siendo considerado una mejora significativa sobre Windows Vista.<br>
+                    <strong>Interfaz de Usuario:</strong> Introdujo una barra de tareas renovada con una mejor funcionalidad de "anclaje" y las bibliotecas en el Explorador de Windows.<br>
+                    <strong>Compatibilidad y Hardware:</strong> Mejoró el rendimiento y la compatibilidad con aplicaciones y dispositivos en comparación con Vista. También introdujo el modo Windows XP para ejecutar aplicaciones más antiguas.<br>
+                    <strong>Redes y Conectividad:</strong> Introdujo el "Centro de redes y recursos compartidos" y mejoras en la conectividad inalámbrica.<br>
+                    <strong>Sistema de Archivos:</strong> Continuó con el soporte de NTFS y mejoras en el rendimiento de acceso a discos y archivos.<br>
+                    <strong>Seguridad:</strong> Mejoras en el firewall de Windows y en Windows Defender. También introdujo BitLocker To Go para el cifrado de dispositivos extraíbles.<br>
+                    <strong>Ediciones:</strong> Al igual que Vista, estaba disponible en varias ediciones, desde Starter hasta Ultimate.<br>
+                    <strong>Duración del soporte:</strong> Microsoft finalizó el soporte oficial para Windows 7 el 14 de enero de 2020.
+                </td>
+            </tr>
+            <tr onclick="toggleDetails('win8')">
+                <td>Windows 8</td>
+                <td>Octubre del 2012</td>
+                <td>Interfaz Modern UI (anteriormente Metro)</td>
+                <td>Optimizado para pantallas táctiles</td>
+                <td>Introducción de la tienda Windows Store</td>
+                <td>Soporte mejorado para NTFS y sistema de archivos ReFS</td>
+            </tr>
+            <tr id="win8" class="details">
+                <td colspan="6">
+                    <strong>Lanzamiento:</strong> Windows 8 fue lanzado el 26 de octubre de 2012. Representó un cambio significativo en el diseño en comparación con versiones anteriores, con un enfoque en dispositivos táctiles.<br>
+                    <strong>Interfaz de Usuario:</strong> Introdujo la interfaz Modern UI (anteriormente conocida como Metro) con baldosas en vivo y la eliminación del tradicional menú Inicio. Diseñado para ser amigable con pantallas táctiles.<br>
+                    <strong>Compatibilidad y Hardware:</strong> Diseñado para funcionar tanto en PCs tradicionales como en tablets, con optimizaciones específicas para dispositivos táctiles.<br>
+                    <strong>Redes y Conectividad:</strong> Introducción de la tienda Windows Store, permitiendo a los usuarios descargar aplicaciones diseñadas específicamente para la interfaz Modern UI.<br>
+                    <strong>Sistema de Archivos:</strong> Aunque NTFS seguía siendo el sistema de archivos principal, Windows 8 introdujo el sistema de archivos Resilient File System (ReFS) diseñado para ser más resistente a las corrupciones de datos.<br>
+                    <strong>Seguridad:</strong> Introdujo características como Windows Defender con capacidades completas de antivirus y Secure Boot para mejorar la seguridad durante el arranque del sistema.<br>
+                    <strong>Ediciones:</strong> Estaba disponible en varias ediciones, incluyendo Windows 8, Windows 8 Pro y Windows 8 RT (para dispositivos ARM).<br>
+                    <strong>Duración del soporte:</strong> El soporte principal finalizó el 9 de enero de 2018, mientras que el soporte extendido está programado para finalizar en 2023.
+                </td>
+            </tr>
+            <tr onclick="toggleDetails('win8_1')">
+                <td>Windows 8.1</td>
+                <td>Octubre del 2013</td>
+                <td>Mejoras en la interfaz y reintroducción del botón Inicio</td>
+                <td>Optimizaciones y mejoras en la experiencia táctil</td>
+                <td>Mejoras en la tienda Windows Store</td>
+                <td>NTFS y mejoras en ReFS</td>
+            </tr>
+            <tr id="win8_1" class="details">
+                <td colspan="6">
+                    <strong>Lanzamiento:</strong> Windows 8.1 fue lanzado el 17 de octubre de 2013 como una actualización gratuita para usuarios de Windows 8. Abordó muchas de las críticas dirigidas a Windows 8.<br>
+                    <strong>Interfaz de Usuario:</strong> Aunque mantuvo la interfaz Modern UI, reintrodujo el botón Inicio y ofreció más opciones de personalización. También permitió a los usuarios iniciar directamente en el escritorio tradicional.<br>
+                    <strong>Compatibilidad y Hardware:</strong> Introdujo mejoras en la gestión de múltiples monitores y optimizaciones adicionales para dispositivos táctiles.<br>
+                    <strong>Redes y Conectividad:</strong> La tienda Windows Store recibió una revisión significativa, con un diseño mejorado y una mayor selección de aplicaciones.<br>
+                    <strong>Sistema de Archivos:</strong> Continuó con el soporte de NTFS y presentó mejoras en el sistema de archivos ReFS.<br>
+                    <strong>Seguridad:</strong> Mejoras en la seguridad de Internet Explorer y mayor integración con servicios en la nube de Microsoft, como OneDrive.<br>
+                    <strong>Ediciones:</strong> Similar a Windows 8, estaba disponible en varias ediciones, incluyendo Windows 8.1, Windows 8.1 Pro y Windows 8.1 RT.<br>
+                    <strong>Duración del soporte:</strong> El soporte principal finalizó el 9 de enero de 2018, mientras que el soporte extendido está programado para finalizar en 2023, al igual que Windows 8.
+                </td>
+            </tr>
+            <tr onclick="toggleDetails('win10')">
+                <td>Windows 10</td>
+                <td>Julio del 2015</td>
+                <td>Interfaz híbrida con Menú Inicio expandido</td>
+                <td>Unificado para PC, dispositivos móviles y Xbox</td>
+                <td>Introducción de Microsoft Edge y Cortana</td>
+                <td>Soporte para NTFS y mejoras en ReFS</td>
+            </tr>
+            <tr id="win10" class="details">
+                <td colspan="6">
+                    <strong>Lanzamiento:</strong> Windows 10 fue lanzado el 29 de julio de 2015 y es la versión actual principal de Windows en el momento de mi última actualización (2021).<br>
+                    <strong>Interfaz de Usuario:</strong> Presenta una interfaz híbrida que combina elementos de Windows 7 y Windows 8.1, con un Menú Inicio expandido que incluye baldosas en vivo. Se realizan actualizaciones y refinamientos constantes en la interfaz a través de actualizaciones semestrales.<br>
+                    <strong>Compatibilidad y Hardware:</strong> Diseñado como un sistema operativo unificado para PC, dispositivos móviles, Xbox, y otros dispositivos. También introdujo el modo Windows 10 S, una versión más ligera y segura del sistema operativo.<br>
+                    <strong>Redes y Conectividad:</strong> Introdujo el navegador Microsoft Edge como reemplazo de Internet Explorer. También vino con la asistente virtual Cortana integrada y mejoras en la tienda Windows Store, ahora simplemente llamada Microsoft Store.<br>
+                    <strong>Sistema de Archivos:</strong> Continuó con el soporte de NTFS y presentó mejoras en el sistema de archivos ReFS, especialmente en servidores y estaciones de trabajo.<br>
+                    <strong>Seguridad:</strong> Introdujo Windows Hello, que permite a los usuarios iniciar sesión con reconocimiento facial, huellas dactilares o un PIN. También mejoró las capacidades de BitLocker y introdujo Windows Defender Antivirus y Windows Defender Firewall como soluciones de seguridad integradas.<br>
+                    <strong>Ediciones:</strong> Disponible en varias ediciones, desde Home y Pro hasta versiones empresariales y educativas.<br>
+                    <strong>Actualizaciones:</strong> Windows 10 introdujo el concepto de "Windows como servicio", donde las actualizaciones se entregan de manera continua en lugar de lanzar nuevas versiones del sistema operativo.
+                </td>
+            </tr>                               
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
